@@ -1,7 +1,7 @@
-# pdf-bullets
-pdf analysis of air force forms
+# AF_Bullet_Writer
+Bullet writing tool for Air Force forms.
 
-One of the most pointless and time-consuming things that Air Force officer and enlisted personnel do every year is bullet-writing. 
+One of the most pointless and time-consuming things that Air Force personnel do every year is bullet-writing. 
 
 Air Force personnel typically are required to write bullets for performance reports and award packages. 
 
