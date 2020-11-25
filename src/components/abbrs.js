@@ -6,12 +6,7 @@
 import React from "react"
 import XLSX from "xlsx"
 import SampleAbbrFile from '../static/abbrs.xlsx'
-
-
-
-
 import { HotTable } from '@handsontable/react';
-
 
 class AbbrTools extends React.PureComponent{
     constructor(props){
@@ -83,14 +78,10 @@ class AbbrsViewer extends React.PureComponent {
     constructor(props) {
         super(props);
         this.tableRef = React.createRef();
-        
-
     }
 
     handleAbbrChange = (type) => {
-        
         return (e)=>{
-
             this.props.onAbbrChange(this.tableRef);   
         }
     }
@@ -98,7 +89,6 @@ class AbbrsViewer extends React.PureComponent {
         //this.tableRef.current.hotInstance.updateSettings({data:[]});
         this.tableRef.current.hotInstance.alter("remove_row",0, this.tableRef.current.hotInstance.countRows())
         this.tableRef.current.hotInstance.loadData(rows);
-
     }
     getData = ()=>{
         return this.tableRef.current.hotInstance.getData();
