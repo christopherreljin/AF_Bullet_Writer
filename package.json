@@ -1,6 +1,6 @@
 {
-  "name": "AF_Bullet_Writer",
-  "version": "0.0.1",
+  "name": "pdf-bullets-cra",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@ckhordiasma/pdfjs-dist": "^2.7.41",
