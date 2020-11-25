@@ -1,6 +1,6 @@
 {
-  "short_name": "AF Bullet Tool",
-  "name": "Air Force Bullet Shaping and Iteration Tool",
+  "short_name": "AF Bullet Writer",
+  "name": "Air Force Bullet Writer Tool",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
