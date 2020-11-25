@@ -153,7 +153,7 @@ class InputTools extends React.PureComponent{
 
     render(){
         return (
-            <button className="button" onClick={this.props.onTextNorm}>Renormalize Input Spacing</button>
+            <button className="button" onClick={this.props.onTextNorm}>Re-Normalize Input Spacing</button>
         );
     }
 }
@@ -222,18 +222,15 @@ class SaveTools extends React.PureComponent{
         );
     }
 }
+
 class Logo extends React.PureComponent{
     render() {
         return (
-            <h1 className='title'><span className="logo">AF </span>
-                <span className="logo">Bull</span>et 
-                <span className="logo"> Sh</span>aping &amp; 
-                <span className="logo"> i</span>teration 
-                <span className="logo"> t</span>ool
-            </h1>
+            <h1 className='title'><span className="logo">AF Bullet Writer</span></h1>
             );
     }
 }
+
 class ThesaurusTools extends React.PureComponent{
     render(){
         return(
@@ -245,6 +242,7 @@ class ThesaurusTools extends React.PureComponent{
         );
     }
 }
+
 class DocumentTools extends React.PureComponent{
     constructor(props){
         super(props);
@@ -299,8 +297,7 @@ const Forms  = {
        }
    };
    function getBulletsFromPdf(filedata){
-   
-       
+          
        const pdfSetup = filedata.arrayBuffer().then(function(buffer){
            const uint8Array = new Uint8Array(buffer);
 
